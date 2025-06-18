@@ -1,0 +1,26 @@
+# Ignore build output
+build/
+*.o
+*.out
+*.log
+
+# Ignore simulation results
+m5out/
+stats.txt
+config.ini
+nvmain.log
+nvmain.trace
+
+# Ignore temporary/system files
+*.pyc
+__pycache__/
+.DS_Store
+*.swp
+
+# Ignore benchmark binaries (optional)
+benchmarks/quicksort
+benchmarks/multiply
+
+# Ignore backup files
+*~
+
