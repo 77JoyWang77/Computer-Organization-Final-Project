@@ -55,6 +55,11 @@ class LRURP(BaseReplacementPolicy):
     cxx_class = 'LRURP'
     cxx_header = "mem/cache/replacement_policies/lru_rp.hh"
 
+class FBRP(BaseReplacementPolicy):
+    type = 'FBRP'
+    cxx_class = 'FBRP'
+    cxx_header = "mem/cache/replacement_policies/fb_rp.hh"
+
 class BIPRP(LRURP):
     type = 'BIPRP'
     cxx_class = 'BIPRP'
@@ -90,3 +95,4 @@ class RRIPRP(BRRIPRP):
 class NRURP(BRRIPRP):
     btp = 0
     max_RRPV = 1
+
