@@ -1,0 +1,4 @@
+/home/joywang/project/gem5/configs/common/CacheConfig.py:50: SyntaxWarning: import * only allowed at module level
+  def config_cache(options, system):
+0: system.remote_gdb: listening for remote gdb on port 7000
+info: Entering event queue @ 0.  Starting simulation...
